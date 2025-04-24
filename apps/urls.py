@@ -4,3 +4,7 @@ urlpatterns = [
     path('auth/', include('users.urls')),
     path('courses/', include('courses.urls')),
 ]
+
+
+
+

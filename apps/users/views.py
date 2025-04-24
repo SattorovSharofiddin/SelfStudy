@@ -19,3 +19,6 @@ class UserCreateAPIView(generics.CreateAPIView):
         user = serializer.save()
         if user.role == 'instructor':
             Instructor.objects.create(user=user)
+
+
+#qqqqqq
